@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.asphcalc.myapplication" >
+    package="com.asphcalc.dumper" >
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -10,7 +10,7 @@
         android:icon="@drawable/asphcal2"
         android:label="@string/app_name" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.asphcalc.dumper.MainActivity"
             android:elevation="2dp"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -22,25 +22,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".model.versione"
+            android:name="com.asphcalc.dumper.model.versione"
             android:theme="@style/Dialog2" >
         </activity>
         <activity
-            android:name=".model.dialogo_impostazioni"
+            android:name="com.asphcalc.dumper.model.dialogo_impostazioni"
             android:theme="@style/Dialog2" >
         </activity>
         <activity
-            android:name=".model.PreferencesFromXml_unita"
+            android:name="com.asphcalc.dumper.model.PreferencesFromXml_unita"
             android:label="Setting"
             android:theme="@style/Dialog2" >
         </activity>
         <activity
-            android:name=".model.PreferencesFromXml_trasporto"
+            android:name="com.asphcalc.dumper.model.PreferencesFromXml_trasporto"
             android:label="Setting"
             android:theme="@style/Dialog2" >
         </activity>
         <activity
-            android:name=".model.PreferencesFromXml"
+            android:name="com.asphcalc.dumper.model.PreferencesFromXml"
             android:label="Setting"
             android:theme="@style/Dialog2" >
         </activity>

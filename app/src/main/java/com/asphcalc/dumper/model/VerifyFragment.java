@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication.model;
+package com.asphcalc.dumper.model;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -19,7 +19,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.asphcalc.myapplication.R;
+import com.asphcalc.dumper.R;
 
 public class VerifyFragment extends Fragment {
 

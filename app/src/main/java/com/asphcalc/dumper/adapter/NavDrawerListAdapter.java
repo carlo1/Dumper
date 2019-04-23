@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication.adapter;
+package com.asphcalc.dumper.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,11 +9,11 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.asphcalc.myapplication.model.NavDrawerItem;
+import com.asphcalc.dumper.model.NavDrawerItem;
 
 import java.util.ArrayList;
 
-import com.asphcalc.myapplication.R;
+import com.asphcalc.dumper.R;
 
 
 

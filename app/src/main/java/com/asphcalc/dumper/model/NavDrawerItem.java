@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication.model;
+package com.asphcalc.dumper.model;
 
 public class NavDrawerItem {
 	

@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication;
+package com.asphcalc.dumper;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -21,16 +21,16 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.asphcalc.myapplication.adapter.NavDrawerListAdapter;
-import com.asphcalc.myapplication.model.CalMaterFragment;
-import com.asphcalc.myapplication.model.ContactFragment;
-import com.asphcalc.myapplication.model.NavDrawerItem;
-import com.asphcalc.myapplication.model.TrasportFragment;
-import com.asphcalc.myapplication.model.VerifyFragment;
-import com.asphcalc.myapplication.model.WorkProgressFragment;
-import com.asphcalc.myapplication.model.area2Fragment;
-import com.asphcalc.myapplication.model.dialogo_impostazioni;
-import com.asphcalc.myapplication.model.versione;
+import com.asphcalc.dumper.adapter.NavDrawerListAdapter;
+import com.asphcalc.dumper.model.CalMaterFragment;
+import com.asphcalc.dumper.model.ContactFragment;
+import com.asphcalc.dumper.model.NavDrawerItem;
+import com.asphcalc.dumper.model.TrasportFragment;
+import com.asphcalc.dumper.model.VerifyFragment;
+import com.asphcalc.dumper.model.WorkProgressFragment;
+import com.asphcalc.dumper.model.area2Fragment;
+import com.asphcalc.dumper.model.dialogo_impostazioni;
+import com.asphcalc.dumper.model.versione;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication.model;
+package com.asphcalc.dumper.model;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.asphcalc.myapplication.R;
+import com.asphcalc.dumper.R;
 
 /**
  * Created by carlo on 20/01/2015.

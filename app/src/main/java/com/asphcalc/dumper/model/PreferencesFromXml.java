@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication.model;
+package com.asphcalc.dumper.model;
 
 
 import android.content.SharedPreferences;
@@ -7,7 +7,7 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 
-import com.asphcalc.myapplication.R;
+import com.asphcalc.dumper.R;
 
 public class PreferencesFromXml extends PreferenceActivity {
    //public static final String Write = "nome_tappetino";

@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication;
+package com.asphcalc.dumper;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

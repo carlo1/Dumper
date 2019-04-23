@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication.model;
+package com.asphcalc.dumper.model;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
@@ -29,7 +29,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.asphcalc.myapplication.R;
+import com.asphcalc.dumper.R;
 
 import java.util.Random;
 

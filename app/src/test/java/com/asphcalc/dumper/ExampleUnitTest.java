@@ -1,4 +1,4 @@
-package com.asphcalc.myapplication;
+package com.asphcalc.dumper;
 
 import org.junit.Test;
 
