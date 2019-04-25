@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <color name="actionBarBackgroundColorDark">#ff1b6cb9</color>
-    <color name="actionBarBackgroundColor">#ff1b89d8</color>
+    <color name="actionBarBackgroundColorDark">#DA3704</color>
+    <color name="actionBarBackgroundColor">#FF3C00</color>
     <color name="actionBarTextColor">#ffffffff</color>
 
     <style name="MyTheme" parent="@android:style/Theme.DeviceDefault.Light">

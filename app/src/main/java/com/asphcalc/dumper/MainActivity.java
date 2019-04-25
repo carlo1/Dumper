@@ -27,6 +27,7 @@ import com.asphcalc.dumper.model.ContactFragment;
 import com.asphcalc.dumper.model.NavDrawerItem;
 import com.asphcalc.dumper.model.TrasportFragment;
 import com.asphcalc.dumper.model.VerifyFragment;
+import com.asphcalc.dumper.model.WhatsHotFragment;
 import com.asphcalc.dumper.model.WorkProgressFragment;
 import com.asphcalc.dumper.model.area2Fragment;
 import com.asphcalc.dumper.model.dialogo_impostazioni;
@@ -94,7 +95,7 @@ public class MainActivity extends Activity {
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[0], navMenuIcons.getResourceId(0, -1),true,"Rev"));
 
         // Verifica Spessore (Find People)
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[1], navMenuIcons.getResourceId(0, -1)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[1], navMenuIcons.getResourceId(1, -1)));
 
         // Lavori in Corso (Photos)
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[2], navMenuIcons.getResourceId(2, -1)));
@@ -249,7 +250,7 @@ public class MainActivity extends Activity {
                 fragment = new TrasportFragment();
                 break;
             case 5:
-                fragment = new ContactFragment();
+                fragment = new WhatsHotFragment();
                 break;
             case 6:
                 startActivity(new Intent(this, versione.class));
